@@ -1,0 +1,15 @@
+.main-section-container {
+    @apply max-w-[1240px] w-full h-screen text-center mx-auto p-2 flex justify-center items-center;
+  }
+
+.phrase-container {
+    @apply uppercase text-sm tracking-widest text-primary-gray;
+}
+
+.icons-container {
+    @apply flex items-center justify-between max-w-[330px] m-auto py-4;
+}
+
+.description-container{
+    @apply max-w-[70%] m-auto;
+}

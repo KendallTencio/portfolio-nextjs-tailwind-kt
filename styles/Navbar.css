@@ -1,0 +1,15 @@
+.backdrop-container{
+    @apply md:hidden fixed left-0 top-0 w-full h-screen bg-black/70;
+}
+
+.main-nav-container{
+    @apply fixed w-full h-20 shadow-xl z-[100] bg-secondary;
+}
+
+.link-container{
+    @apply hidden md:flex;
+}
+
+.desktop-contaner{
+    @apply flex justify-between items-center w-full h-full px-2 2xl:px-16;
+}
