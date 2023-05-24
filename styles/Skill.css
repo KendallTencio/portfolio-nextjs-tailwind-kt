@@ -1,0 +1,19 @@
+.skill-container{
+    @apply p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300;
+}
+
+.skills-container{
+    @apply w-full lg:h-screen p-2 max-w-[1240px] mx-auto flex flex-col justify-center h-full;
+}
+
+.skill-grid-container{
+    @apply grid grid-cols-2 gap-4 justify-center items-center;
+}
+
+.skill-name-container{
+    @apply flex flex-col items-center justify-center;
+}
+
+.skills-grid-container{
+    @apply grid md:grid-cols-2 lg:grid-cols-4 gap-8;
+}

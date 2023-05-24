@@ -1,0 +1,11 @@
+.icon-container{
+    @apply rounded-full shadow-lg shadow-gray-400 cursor-pointer ease-in duration-300;
+}
+
+.hover-md{
+    @apply hover:scale-110;
+}
+
+.hover-sm{
+    @apply hover:scale-105;
+}

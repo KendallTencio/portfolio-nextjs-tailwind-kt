@@ -1,21 +1,16 @@
 import Image from "next/image";
 import React from "react";
+import "../../styles/Skill.css";
 
-const Skill = () => {
+const Skill = (props: any) => {
+  const { skill, skillSrc } = props;
   return (
-    <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-      <div className="grid grid-cols-2 gap-4 justify-center items-center">
-        <div className="m-auto">
-          <Image
-            src="/../public/assets/React.png"
-            alt="/"
-            width={"40"}
-            height={"40"}
-          />
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <h3>React</h3>
-        </div>
+    <div className="skill-container skill-grid-container">
+      <div className="m-auto">
+        <Image src={skillSrc} alt="/" width={"40"} height={"40"} />
+      </div>
+      <div className="skill-name-container">
+        <h3>{skill}</h3>
       </div>
     </div>
   );

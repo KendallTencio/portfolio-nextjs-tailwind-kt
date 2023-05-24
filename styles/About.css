@@ -1,0 +1,19 @@
+.about-main-container{
+    @apply md:h-screen p-2 py-16 max-w-[1240px] m-auto md:grid grid-cols-3 gap-8;
+}
+
+.about-text-container{
+    @apply col-span-2;
+}
+
+.about-image-container{
+    @apply w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300;
+}
+
+.check-link-text{
+    @apply text-gray-600 underline cursor-pointer;
+}
+
+.about-image{
+    @apply rounded-xl;
+}

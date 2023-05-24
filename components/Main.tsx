@@ -9,7 +9,7 @@ import {
   NAME,
   POSITION,
 } from "@/utils/constants";
-import Icons from "./Icons";
+import Icon from "./Icon";
 import "../styles/Main.css";
 
 const Main = () => {
@@ -19,25 +19,25 @@ const Main = () => {
         <p className="phrase-container">{PHRASE_ONE}</p>
         <h1 className="primary-text">
           {GREETING_ONE}
-          <span className={`text-primary`}>{NAME}</span>
+          <span className={`highlight-text`}>{NAME}</span>
         </h1>
         <h1 className="primary-text">{POSITION}</h1>
         <p className="secondary-text description-container">
           {SHORT_DESCRIPTION}
         </p>
         <div className="icons-container">
-          <Icons isBig>
+          <Icon isBig>
             <FaLinkedinIn />
-          </Icons>
-          <Icons isBig>
+          </Icon>
+          <Icon isBig>
             <FaGithub />
-          </Icons>
-          <Icons isBig>
+          </Icon>
+          <Icon isBig>
             <AiOutlineMail />
-          </Icons>
-          <Icons isBig>
+          </Icon>
+          <Icon isBig>
             <BsFillPersonLinesFill />
-          </Icons>
+          </Icon>
         </div>
       </div>
     </div>

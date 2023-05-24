@@ -34,10 +34,30 @@
   @apply py-4;
 }
 
+.small-py {
+  @apply py-2;
+}
+
+.default-p {
+  @apply p-4;
+}
+
+.secondary-p {
+  @apply p-3;
+}
+
 .primary-text{
   @apply default-py text-primary-gray
 }
 
 .secondary-text{
   @apply default-py text-secondary-gray
+}
+
+.highlight-text{
+  @apply uppercase tracking-widest text-primary;
+}
+
+.highlight-text-xl{
+  @apply uppercase text-xl tracking-widest text-primary;
 }

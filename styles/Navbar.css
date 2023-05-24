@@ -10,6 +10,32 @@
     @apply hidden md:flex;
 }
 
-.desktop-contaner{
-    @apply flex justify-between items-center w-full h-full px-2 2xl:px-16;
+.desktop-container{
+    @apply h-full px-2 2xl:px-16;
+}
+
+.default-nav-container{
+    @apply flex w-full items-center justify-between;
+}
+
+/* MOBILE */
+
+.mobile-icon-container{
+    @apply flex items-center justify-between my-4 w-full sm:w-[80%];
+}
+
+.mobile-nav-container{
+    @apply fixed left-0 top-0 w-[75%] sm:w-[65%] md:w-[45%] h-screen bg-secondary p-10 ease-in duration-500;
+}
+
+.mobile-nav-container-closed{
+    @apply fixed left-[-100%] top-0 p-10 ease-in duration-500;
+}
+
+.mobile-phrase-container{
+    @apply w-[85%] md:w-[90%] py-4;
+}
+
+.mobile-link-icon-container{
+    @apply py-4 flex flex-col;
 }

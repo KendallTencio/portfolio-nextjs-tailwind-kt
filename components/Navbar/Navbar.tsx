@@ -5,6 +5,7 @@ import {
   ABOUT_TITLE,
   HOME_TITLE,
   KT_LOGO,
+  KT_LOGO_ALT_TEXT,
   SKILLS_TITLE,
 } from "@/utils/constants";
 import NavbarLink from "./NavbarLink";
@@ -20,10 +21,10 @@ const Navbar = () => {
 
   return (
     <div className="main-nav-container">
-      <div className="desktop-container">
+      <div className="default-nav-container desktop-container">
         <Image
           src={KT_LOGO}
-          alt="Logo of the page"
+          alt={KT_LOGO_ALT_TEXT}
           width={"50"}
           height={"50"}
         />
