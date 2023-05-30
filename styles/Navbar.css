@@ -3,7 +3,11 @@
 }
 
 .main-nav-container{
-    @apply fixed w-full h-20 shadow-xl z-[100] bg-secondary;
+    @apply fixed w-full h-20 z-[100] bg-secondary;
+}
+
+.nav-shadow {
+    @apply shadow-lg shadow-primary-white;
 }
 
 .link-container{

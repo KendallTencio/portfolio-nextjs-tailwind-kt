@@ -1,9 +1,9 @@
 .main-section-container {
-    @apply max-w-[1240px] w-full h-screen text-center mx-auto p-2 flex justify-center items-center;
+    @apply max-w-[1240px] w-full h-screen text-center mx-auto p-3 flex justify-center items-center;
   }
 
 .phrase-container {
-    @apply uppercase text-sm tracking-widest text-primary-gray;
+    @apply uppercase text-sm tracking-widest text-primary-white;
 }
 
 .icons-container {

@@ -26,8 +26,8 @@ const NavbarMobile = (props: any) => {
           <Image
             src={KT_LOGO}
             alt={KT_LOGO_ALT_TEXT}
-            width={"40"}
-            height={"40"}
+            width={"200"}
+            height={"200"}
           />
           <Icon onClickHandler={handleNav}>
             <AiOutlineClose />

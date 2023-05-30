@@ -27,7 +27,7 @@ export const MAIN_WHITE_HEX = "#ecf0f3"; //STILL NOT BEING USED
 export const PADDING_DEFAULT = "p-4"
 
 //Links 
-export const KT_LOGO = "/../public/assets/KT-Page-Logo.png";
+export const KT_LOGO = "/assets/KT-SIGNATURE-WHITE.svg";
 export const ABOUT_MAIN_IMAGE = "https://media.tate.org.uk/aztate-prd-ew-dg-wgtail-st1-ctr-data/images/caspar_david_friedrich_wanderer_above_the_sea_.width-340.jpg";
 
 //Alternative text
